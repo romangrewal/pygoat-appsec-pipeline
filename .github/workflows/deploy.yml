@@ -18,7 +18,7 @@ jobs:
               run: |
                 echo "AWS_DEFAULT_REGION=us-east-2" >> "$GITHUB_ENV"
                 echo "AWS_SG_NAME=PyGoatSG" >> "$GITHUB_ENV"
-                echo "REPO_LOCATION=https://www.github.com/romangrewal/pygoat-appsec-pipeline" >> "$GITHUB_ENV"
+                echo "REPO_LOCATION=https://www.github.com/romangrewal/pygoat-appsec-pipeline.git" >> "$GITHUB_ENV"
           
             - name: Add GH runner IP to AWS Security Group
               run: |
