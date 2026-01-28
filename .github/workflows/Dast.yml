@@ -36,7 +36,7 @@ jobs:
         uses: zaproxy/action-baseline@v0.12.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          target: 3.145.211.82
+          target: http://3.145.211.82
           # rules_file_name: '.zap/rules.tsv'
           # cmd_options: '-a'
 
