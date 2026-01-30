@@ -169,4 +169,4 @@ SOCIALACCOUNT_PROVIDERS = {
 }
 
 SECRET_COOKIE_KEY = "PYGOAT"
-CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:8000","http://0.0.0.0:8000","http://172.16.189.10","http://18.188.81.151","http://ec2-18-188-81-151.us-east-2.compute.amazonaws.com"]
+CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:8000","http://0.0.0.0:8000","http://172.16.189.10","http://18.222.25.49","http://ec2-18-222-25-49.us-east-2.compute.amazonaws.com"]
